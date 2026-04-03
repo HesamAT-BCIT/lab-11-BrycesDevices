@@ -1,0 +1,35 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+
+# Git
+.git/
+.gitignore
+
+# Environment files (keep secrets out of images)
+.env
+
+# Firebase credentials (sensitive - never include in image)
+serviceAccountKey.json
+
+# Docker files themselves
+Dockerfile
+.dockerignore
+
+# Docs / tests (if not needed at runtime)
+README.md
+tests/
+
+# Pytest cache
+.pytest_cache/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# IDE settings
+.idea/
+.vscode/

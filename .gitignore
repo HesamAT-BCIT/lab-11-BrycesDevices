@@ -3,3 +3,12 @@ __pycache__/
 *.py[cod]
 .env
 serviceAccountKey.json
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
